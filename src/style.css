@@ -1,5 +1,34 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #e3f2fd; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+#excuse {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    color: #333;
+}
+
+
+
